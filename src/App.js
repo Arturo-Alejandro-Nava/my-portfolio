@@ -10,7 +10,7 @@ function App() {
     {
       title: 'Personal Portfolio Website',
       description: 'A fully responsive portfolio built from scratch with React and styled using Tailwind CSS. It features an interactive contact form connected to EmailJS.',
-      link: 'https://github.com/your-username/my-portfolio', // <-- EDIT THIS LINK LATER
+      link: 'https://github.com/Arturo-Alejandro-Nava/my-portfolio', 
     },
     {
       title: 'Future Project: Task Management App',
