@@ -30,7 +30,7 @@ function App() {
       <header className="bg-gray-900 text-white shadow-md sticky top-0 z-10">
         <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
           <div className="text-2xl font-bold">
-            [Your Name] {/* <-- EDIT THIS */}
+            Arturo Alejandro Nava {/* <-- EDIT THIS */}
           </div>
           <div className="space-x-6">
             <a href="#about" className="hover:text-blue-400 transition">About</a>
@@ -76,7 +76,7 @@ function App() {
 
       {/* Footer Section */}
       <footer className="bg-gray-900 text-white text-center py-6 mt-20">
-        <p>&copy; 2025 [Your Name]. All rights reserved.</p> {/* <-- EDIT THIS */}
+        <p>&copy; 2025 Arturo Alejandro Nava. All rights reserved.</p> {/* <-- EDIT THIS */}
       </footer>
     </div>
   );
