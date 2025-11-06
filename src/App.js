@@ -1,26 +1,23 @@
 import React from 'react';
-import ProjectCard from './ProjectCard'; // Make sure this component exists
-import ContactForm from './ContactForm'; // Make sure this component exists
+import ProjectCard from './ProjectCard';
+import ContactForm from './ContactForm';
 
 function App() {
-  // --- IMPORTANT ---
-  // Once you push your code to GitHub, replace 'your-username' below
-  // with your actual GitHub username to make the link work!
   const projects = [
     {
       title: 'Personal Portfolio Website',
       description: 'A fully responsive portfolio built from scratch with React and styled using Tailwind CSS. It features an interactive contact form connected to EmailJS.',
-      link: 'https://github.com/Arturo-Alejandro-Nava/my-portfolio', 
+      link: 'https://github.com/Arturo-Alejandro-Nava/my-portfolio', // This link is correct
     },
     {
-      title: 'Future Project: Task Management App',
-      description: 'An upcoming project to build a dynamic to-do list application. It will use React Hooks for state management and save tasks to the browser\'s local storage.',
-      link: '#',
+      title: 'Task Management App',
+      description: 'A dynamic to-do list that saves tasks to the browser\'s local storage, built with React Hooks for state management.',
+      link: 'https://task-app-rho-ten.vercel.app/', // <-- PASTE YOUR LIVE TASK APP URL HERE
     },
     {
       title: 'Future Project: Live Weather App',
       description: 'I plan to build an application that fetches and displays real-time weather data from a third-party API based on user location.',
-      link: '#',
+      link: '#', // This will be your next project!
     },
   ];
 
@@ -30,7 +27,7 @@ function App() {
       <header className="bg-gray-900 text-white shadow-md sticky top-0 z-10">
         <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
           <div className="text-2xl font-bold">
-            Arturo Alejandro Nava {/* <-- EDIT THIS */}
+            Arturo Alejandro Nava
           </div>
           <div className="space-x-6">
             <a href="#about" className="hover:text-blue-400 transition">About</a>
@@ -76,7 +73,7 @@ function App() {
 
       {/* Footer Section */}
       <footer className="bg-gray-900 text-white text-center py-6 mt-20">
-        <p>&copy; 2025 Arturo Alejandro Nava. All rights reserved.</p> {/* <-- EDIT THIS */}
+        <p>&copy; 2025 Arturo Alejandro Nava. All rights reserved.</p>
       </footer>
     </div>
   );
