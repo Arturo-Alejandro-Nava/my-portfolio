@@ -6,18 +6,18 @@ function App() {
   const projects = [
     {
       title: 'Personal Portfolio Website',
-      description: 'A fully responsive portfolio built from scratch with React and styled using Tailwind CSS. It features an interactive contact form connected to EmailJS.',
+      description: 'A fully responsive portfolio built with React and styled with Tailwind CSS, featuring an interactive contact form connected to EmailJS.',
       link: 'https://github.com/Arturo-Alejandro-Nava/my-portfolio', // This link is correct
     },
     {
       title: 'Task Management App',
       description: 'A dynamic to-do list that saves tasks to the browser\'s local storage, built with React Hooks for state management.',
-      link: 'https://task-app-rho-ten.vercel.app/', // <-- PASTE YOUR LIVE TASK APP URL HERE
+      link: 'https://task-app-rho-ten.vercel.app/', // <-- PASTE YOUR TASK APP URL HERE (I've used the one from our chat, but double-check it)
     },
     {
-      title: 'Future Project: Live Weather App',
-      description: 'I plan to build an application that fetches and displays real-time weather data from a third-party API based on user location.',
-      link: '#', // This will be your next project!
+      title: 'Live Weather App',
+      description: 'A responsive application that fetches and displays live weather data from the OpenWeatherMap API, styled with Tailwind CSS.',
+      link: 'https://weather-app-plum-delta-74.vercel.app/', // <-- PASTE YOUR NEW LIVE WEATHER APP URL HERE!
     },
   ];
 
